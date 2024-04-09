@@ -6,7 +6,15 @@ def rezultats(sk1, sk2):
     return rez
 
 for skaitlis in range(1, 11, 2):     #range - funkcija, kas skaita skaitļus
-    print("mūsu skailis:", skaitlis, "rezultats", rezultats(4, skaitlis))
+    for otrs in range (2,11, 2):
+      print("pirmais skailis:", skaitlis," otrais skaitlis:", otrs,  "rezultats", rezultats(skaitlis, otrs))
+
+def zvaigznes(skaits):
+    for rindasNr in range(1, skaits+1):
+       for zvaigzne in range(rindasNr):
+          print("*", end="")
+          print("")
+
 
 
 skaitlis1 = 4
