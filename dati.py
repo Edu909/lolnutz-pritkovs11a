@@ -32,5 +32,7 @@ def dabut_rindinas():
 
     return rindas
 
-saraksts = dabut_rindinas()
-print(saraksts)
+# saraksts = dabut_rindinas()
+# print(saraksts)
+
+ierakstit("")
